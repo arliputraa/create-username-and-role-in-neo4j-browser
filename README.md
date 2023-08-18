@@ -7,7 +7,7 @@
       SET HOME DATABASE <neo4j>;
     GRANT ROLE <architect/role> TO <username>;
 
-### Example
+### Example:
 ![Screenshot 2023-08-18 110812](https://github.com/arliputraa/create-username-and-role-in-neo4j-browser/assets/110078907/13670f58-0af1-4f24-9c0f-3417c96b6190)
 
 
