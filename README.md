@@ -1,2 +1,8 @@
-# create-username-and-role-in-neo4j-browser
-How to create Username and Role in Neo4j Browser
+## Cypher Query
+
+    CREATE USER <user-name>
+      SET PASSWORD "<password>"
+      SET PASSWORD CHANGE NOT REQUIRED
+      SET STATUS ACTIVE
+      SET HOME DATABASE <database-name>;
+    GRANT ROLE <architect/role> TO <username>;
